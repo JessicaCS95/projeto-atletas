@@ -1,0 +1,213 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    opacity: 1;
+    text-align: center;
+    padding: 0.4rem 0;
+}
+
+
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+.menu1, .menu2, .menu3{
+    padding: 1%;
+}
+
+.menu1-2, .menu2-2, .menu3-2{
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    
+}
+
+.medalhas:hover{
+    color: #009739;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.home:hover{
+    color: yellow;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.patrocinio:hover{
+    color: blue;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+main {
+    margin-top: 50px;
+    background-color: black;
+    margin-bottom: 15%;
+
+}
+
+.header2 {
+    display: flex;
+    width: 100%;
+}
+
+figure {
+    justify-content: center;
+    margin: auto;
+    
+}
+
+.banner:hover {
+    content: url(../img/atletabs.jpg);
+    object-fit:scale-down;
+}
+
+article {
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding: 4% 3% 2% 3%;
+    font-size: 1.8rem;
+    margin: auto;
+}
+
+.biografia {
+    color: white;
+    font-size: 1.3rem;
+    text-align: justify;
+    margin: auto;
+    padding: 3% 10%;
+
+
+}
+
+.imagens {
+    width: 100%;
+    display: flex;  
+}
+
+.fotos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fotoluta{
+    margin: 1%;
+}
+
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 5px 0;
+    font-size: 12px;
+
+}
+
+.redesocial{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    color: white;
+    margin-top: 1%;
+    padding-top: 5%;
+    font-size: 1.5rem;
+    justify-content: center;
+    
+}
+
+.logoinsta{
+ display: flex;
+ padding-left: 0.4rem;
+}
+
+@media only screen and (max-width: 768px){
+
+    a{
+        font-size: 1.2rem;
+    }
+
+    .cabeçalho{
+        display: inline-flex;
+        
+    }
+
+    .bandeira, .olimpiadas {
+        display: none;
+    }
+
+    .menu1, .menu2, .menu3{
+        display: none;
+    }
+
+    .menu1-2, .menu2-2, .menu3-2{
+        display: flex;
+    
+    }
+
+    .menu3-2:hover{
+        zoom: 125%;
+    }
+    
+    .menu1-2:hover{
+        zoom: 125%;
+    }
+    
+    .menu2-2:hover{
+        zoom: 125%;
+    }
+
+    .redesocial{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        color: white;
+        margin-top: 1%;
+        padding-top: 5%;
+        font-size: 1rem;
+        justify-content: center;
+    
+}
+
+.logoinsta{
+    display: flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding-left: 0.7rem;
+    padding-bottom: 0.4rem;
+   }
+}
