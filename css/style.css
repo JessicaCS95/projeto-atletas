@@ -27,14 +27,18 @@ header {
     color: white;
     justify-content: space-around;
     width: 100%;
-    
+
 }
 
-.menu1, .menu2, .menu3{
+.menu1,
+.menu2,
+.menu3 {
     padding: 1%;
 }
 
-.menu1-2, .menu2-2, .menu3-2{
+.menu1-2,
+.menu2-2,
+.menu3-2 {
     display: none;
 }
 
@@ -42,22 +46,24 @@ a {
     text-decoration: none;
     color: white;
     font-size: 1.3rem;
-    
+
 }
 
-.medalhas:hover{
+.medalhas:hover {
     color: #009739;
     background-color: white;
     padding: 1rem;
     border-radius: 0.5rem;
 }
-.home:hover{
+
+.home:hover {
     color: yellow;
     background-color: white;
     padding: 1rem;
     border-radius: 0.5rem;
 }
-.patrocinio:hover{
+
+.patrocinio:hover {
     color: blue;
     background-color: white;
     padding: 1rem;
@@ -79,12 +85,12 @@ main {
 figure {
     justify-content: center;
     margin: auto;
-    
+
 }
 
 .banner:hover {
     content: url(../img/atletabs.jpg);
-    object-fit:scale-down;
+    object-fit: scale-down;
 }
 
 article {
@@ -111,17 +117,17 @@ h1 {
 
 .imagens {
     width: 100%;
-    display: flex;  
+    display: flex;
 }
 
-.fotos{
+.fotos {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.fotoluta{
+.fotoluta {
     margin: 1%;
 }
 
@@ -138,7 +144,7 @@ footer {
 
 }
 
-.redesocial{
+.redesocial {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -147,51 +153,56 @@ footer {
     padding-top: 5%;
     font-size: 1.5rem;
     justify-content: center;
-    
+
 }
 
-.logoinsta{
- display: flex;
- padding-left: 0.4rem;
+.logoinsta {
+    display: flex;
+    padding-left: 0.4rem;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
 
-    a{
+    a {
         font-size: 1.2rem;
     }
 
-    .cabeçalho{
+    .cabeçalho {
         display: inline-flex;
-        
+
     }
 
-    .bandeira, .olimpiadas {
+    .bandeira,
+    .olimpiadas {
         display: none;
     }
 
-    .menu1, .menu2, .menu3{
+    .menu1,
+    .menu2,
+    .menu3 {
         display: none;
     }
 
-    .menu1-2, .menu2-2, .menu3-2{
+    .menu1-2,
+    .menu2-2,
+    .menu3-2 {
         display: flex;
-    
+
     }
 
-    .menu3-2:hover{
-        zoom: 125%;
-    }
-    
-    .menu1-2:hover{
-        zoom: 125%;
-    }
-    
-    .menu2-2:hover{
+    .menu3-2:hover {
         zoom: 125%;
     }
 
-    .redesocial{
+    .menu1-2:hover {
+        zoom: 125%;
+    }
+
+    .menu2-2:hover {
+        zoom: 125%;
+    }
+
+    .redesocial {
         display: flex;
         flex-direction: row;
         width: 100%;
@@ -200,14 +211,14 @@ footer {
         padding-top: 5%;
         font-size: 1rem;
         justify-content: center;
-    
-}
 
-.logoinsta{
-    display: flex;
-    width: 1.5rem;
-    height: 1.5rem;
-    padding-left: 0.7rem;
-    padding-bottom: 0.4rem;
-   }
+    }
+
+    .logoinsta {
+        display: flex;
+        width: 1.5rem;
+        height: 1.5rem;
+        padding-left: 0.7rem;
+        padding-bottom: 0.4rem;
+    }
 }
