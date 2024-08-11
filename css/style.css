@@ -57,14 +57,14 @@ a {
 }
 
 .home:hover {
-    color: yellow;
+    color: #009739;
     background-color: white;
     padding: 1rem;
     border-radius: 0.5rem;
 }
 
 .patrocinio:hover {
-    color: blue;
+    color: #009739;
     background-color: white;
     padding: 1rem;
     border-radius: 0.5rem;
@@ -97,7 +97,7 @@ article {
     width: 100%;
 }
 
-h1 {
+.titulotexto {
     color: white;
     text-align: center;
     padding: 4% 3% 2% 3%;
@@ -161,6 +161,43 @@ footer {
     padding-left: 0.4rem;
 }
 
+/* MEDALHAS */
+
+
+.quadrodemedalhas{
+    color: white;
+    text-align: center;
+    padding: 2%;
+    font-size: 2.5rem;
+    margin-top: 9%;
+    
+}
+
+.tabelamedalhas{
+    padding: 2% 10%;
+}
+
+table{
+    display:flex;
+    color: white;
+    border: white solid 2px;
+    
+    
+}
+
+.titulotabela{
+    font-size: 1.3rem;
+}
+
+th{
+    padding: 2%;
+}
+
+
+
+
+
+
 @media only screen and (max-width: 768px) {
 
     a {
@@ -221,4 +258,17 @@ footer {
         padding-left: 0.7rem;
         padding-bottom: 0.4rem;
     }
+
+    /* MEDALHAS */
+
+.quadrodemedalhas{
+    font-size: 1.5rem;
+    margin-top: 20%;
 }
+
+.titulotabela{
+    font-size: 1rem;
+}
+
+}
+
