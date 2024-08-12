@@ -61,6 +61,7 @@ a {
     background-color: white;
     padding: 1rem;
     border-radius: 0.5rem;
+    
 }
 
 .patrocinio:hover {
@@ -91,6 +92,7 @@ figure {
 .banner:hover {
     content: url(../img/atletabs.jpg);
     object-fit: scale-down;
+    
 }
 
 article {
@@ -183,6 +185,8 @@ table{
     color: white;
     border: white solid 2px;
     width: 80%;
+    overflow: auto;
+    
     
     
 }
@@ -194,6 +198,71 @@ table{
 th{
     padding: 2%;
 }
+
+/* PATROCÍNIO */
+
+.patrocinador{
+    color: white;
+    margin-top: 13%;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 0 2%;
+}
+
+
+
+h2{
+    color: white;
+    margin-top: 5%;
+    font-size: 2rem;
+    text-align: center;
+    padding: 0 2%;
+}
+
+.textopatrocinio{
+    color: white;
+    font-size: 1.3rem;
+    text-align: justify;
+    margin: auto;
+    padding: 3% 10%;
+}
+
+.frase{
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: auto;
+    padding: 3% 10%;
+}
+
+section{
+    width: 100%;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+  
+}
+
+input{
+    margin-bottom: 2%;
+}
+
+fieldset{
+    align-items: center;
+    width: 50%;
+    color: black;
+    background-color: white;
+    padding: 1%;
+    border: white solid 1rem;
+}
+
+
 
 
 @media only screen and (max-width: 768px) {
@@ -265,7 +334,12 @@ th{
 }
 
 .titulotabela{
-    font-size: 1rem;
+    font-size: 0.9rem;
+    margin: auto;
+}
+
+table{
+    min-width: 50%;
 }
 
 }
