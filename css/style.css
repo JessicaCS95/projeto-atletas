@@ -403,14 +403,18 @@ fieldset{
         content: url(../img/fotomedalha.jpg);
         width: 100%;
     }
+    
+    table{
+        overflow: auto;
+    }
 
     th {
         font-size: 1rem;
-        padding: 1.5%;
+        padding: 3%;
     }
 
     td {
-        font-size: 0.8;
+        font-size: 0.9rem;
 
     }
 
