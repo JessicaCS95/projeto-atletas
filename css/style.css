@@ -165,6 +165,9 @@ footer {
 
 /* MEDALHAS */
 
+.bannermedalha {
+    margin-top: 3%;
+}
 
 .quadrodemedalhas {
     color: white;
@@ -172,25 +175,53 @@ footer {
     padding: 2%;
     font-size: 2.5rem;
     margin-top: 5%;
-
 }
 
-.divmedalhas {
+.tabelamedalhas{
     display: flex;
-    padding: 4%;
-
+    width: 100%;
 }
 
-.medalhasparis,
-.medalhascampeonatos {
+table{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+
+th{
+    color: white;
     border: 0.1rem solid white;
+    padding: 2%;
+    font-size: 1.5rem;
+    padding: 5%;
+   
+}
 
+tr{
+    width: 100%;
 
 }
 
-.bannermedalha {
-    margin-top: 3%;
+td{
+    color: white;
+    border: 0.1rem solid white;
+    font-size: 1.2rem;
+    padding: 4%;
+    width: 50%;
+    
+    
+    
 }
+
+.logomedalha{
+   padding: 5%;
+   margin: 10%;
+   
+   
+}
+
+
 
 /* PATROCÍNIO */
 
@@ -327,7 +358,9 @@ fieldset {
     }
 
     .bannermedalha {
-        margin-top: 15%;
+        margin-top: 10%;
+        content: url(../img/fotomedalha.jpg);
+        width: 100%;
     }
 
 
