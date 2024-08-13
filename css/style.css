@@ -61,7 +61,7 @@ a {
     background-color: white;
     padding: 1rem;
     border-radius: 0.5rem;
-    
+
 }
 
 .patrocinio:hover {
@@ -92,7 +92,7 @@ figure {
 .banner:hover {
     content: url(../img/atletabs.jpg);
     object-fit: scale-down;
-    
+
 }
 
 article {
@@ -166,42 +166,35 @@ footer {
 /* MEDALHAS */
 
 
-.quadrodemedalhas{
+.quadrodemedalhas {
     color: white;
     text-align: center;
     padding: 2%;
     font-size: 2.5rem;
-    margin-top: 9%;
-    
+    margin-top: 5%;
+
 }
 
-.tabelamedalhas{
-    padding: 2% 10%;
-    width: 100%;
+.divmedalhas {
+    display: flex;
+    padding: 4%;
+
 }
 
-table{
-    display:flex;
-    color: white;
-    border: white solid 2px;
-    width: 80%;
-    overflow: auto;
-    
-    
-    
+.medalhasparis,
+.medalhascampeonatos {
+    border: 0.1rem solid white;
+
+
 }
 
-.titulotabela{
-    font-size: 1.3rem;
-}
-
-th{
-    padding: 2%;
+.bannermedalha {
+    margin-top: 3%;
 }
 
 /* PATROCÍNIO */
 
-.patrocinador{
+.patrocinador {
     color: white;
     margin-top: 13%;
     font-size: 2.5rem;
@@ -211,7 +204,7 @@ th{
 
 
 
-h2{
+h2 {
     color: white;
     margin-top: 5%;
     font-size: 2rem;
@@ -219,7 +212,7 @@ h2{
     padding: 0 2%;
 }
 
-.textopatrocinio{
+.textopatrocinio {
     color: white;
     font-size: 1.3rem;
     text-align: justify;
@@ -227,7 +220,7 @@ h2{
     padding: 3% 10%;
 }
 
-.frase{
+.frase {
     color: white;
     font-size: 1.5rem;
     text-align: center;
@@ -235,25 +228,25 @@ h2{
     padding: 3% 10%;
 }
 
-section{
+section {
     width: 100%;
-    
+
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     margin: auto;
-  
+
 }
 
-input{
+input {
     margin-bottom: 2%;
 }
 
-fieldset{
+fieldset {
     align-items: center;
     width: 50%;
     color: black;
@@ -328,19 +321,14 @@ fieldset{
 
     /* MEDALHAS */
 
-.quadrodemedalhas{
-    font-size: 1.5rem;
-    margin-top: 20%;
-}
+    .quadrodemedalhas {
+        font-size: 1.8rem;
+        margin-top: 6%;
+    }
 
-.titulotabela{
-    font-size: 0.9rem;
-    margin: auto;
-}
+    .bannermedalha {
+        margin-top: 10%;
+    }
 
-table{
-    min-width: 50%;
-}
 
 }
-
