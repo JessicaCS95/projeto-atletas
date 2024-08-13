@@ -34,7 +34,7 @@
             <h2>Por que Patrocinar Beatriz Souza?</h2>
             <div class="textopatrocinio">
                 <p>Visibilidade Internacional: Bia, como campeã olímpica em Paris 2024, oferece grande exposição em
-                    eventos globais e na mídia, ampliando a visibilidade da sua marca internacionalmente.</p>
+                    eventos globais e na mídia, ampliando a visibilidade da sua marca internacionalmente.
                 <p>Imagem de Força e Determinação: A trajetória de Bia, marcada por resiliência e foco, associa sua
                     imagem a valores como disciplina e liderança, beneficiando marcas que valorizam essas qualidades.
                 </p>
@@ -52,62 +52,65 @@
                     determinação, superação e excelência, refletidos na vida e na carreira dessa notável judoca
                     brasileira! </em></div>
         </article>
-        <section>
-            <form action="#" method="post">
-                <fieldset>
-                    <legend>Insira os Dados do Patrocinador:</legend>
-                    <div>
-                        <label for="nome-da-empresa">Nome da Empresa:</label>
-                        <input type="text" name="nome-da-empresa" id="nome-da-empresa">
-                    </div>
-                    <div>
-                        <label for="nome-representante">Nome do Representante:</label>
-                        <input type="text" name="nome-representante" id="nome-representante">
-                    </div>
-                    <div>
-                        <label for="email">E-mail</label>
-                        <input type="text" name="email" id="email">
-                    </div>
-                    <div>
-                        <label for="telefone">Telefone</label>
-                        <input type="text" name="telefone" id="telefone">
-                    </div>
-
-
-                    <legend>Detalhes do Ptrocínio:</legend>
-
-                    <div><label for="tipo-patrocinio">Tipo de Patrocínio Desejado:</label></div>
-                    <div><input type="checkbox" name="tipo-patrocinio" value="Apoio Financeiro">
-                        <label for="Apoio Financeiro">Apoio Financeiro</label>
-                    </div>
-
-                    <div>
-                        <input type="checkbox" name="tipo-patrocinio" value="Produtos/Serviços">
-                        <label for="Produtos/Serviços">Produtos/Serviços</label>
-                    </div>
-
-                    <div>
-                        <input type="checkbox" name="tipo-patrocinio" value="Publicidade">
-                        <label for="Publicidade">Publicidade</label>
-                    </div>
-
-                    <div>
-                        <input type="checkbox" name="tipo-patrocinio" value="Eventos">
-                        <label for="Eventos">Eventos</label>
-                    </div>
-
-
-                    <legend>Comentários Adicionais</legend>
-                    <label for="comentarios-adicionais">Obeservações</label>
-                    <div><textarea name="comentarios-adicionais"></textarea></div>
-
-
-                    <input type="submit" value="ENVIAR">
-                </fieldset>
-
-            </form>
-
-
+        <section><form action="#" method="post">
+            <fieldset class="formulario">
+                
+            
+                <div >
+                    <legend ><h1 class="titulo">Insira os Dados do Patrocinador:</h1></legend>
+                    <label class="nome-da-empresa" for="nome-da-empresa"><strong>Nome da Empresa:</strong></label>
+                    <input type="text" name="nome-da-empresa" id="nome-da-empresa" size="50%" placeholder="Digite o nome da empresa" height="50%">
+                </div>
+                <div>
+                    <label  class="nome-representante" for="nome-representante"> <strong>Nome do Representante:</strong></label>
+                    <input type="text" name="nome-representante" id="nome-representante" size="50%" placeholder="Digite o nome do representante">
+                </div>
+                <div>
+                    <label class="email"  for="email"> <strong>E-mail:</strong></label>
+                    <input type="text" name="email" id="email"  size="50%" placeholder="exemplo: patrocinador@.com...">
+                </div>
+                <div>
+                    <label class="telefone" for="telefone"> <strong>Telefone:</strong></label>
+                    <input type="text" name="telefone" id="telefone" size="50%" placeholder="exemplo: (ddd) 9xxxx-xxxx">
+                </div>
+        
+                <div class="tipo-patrocinio">
+                    <legend class="Detalhes"></legend>
+                    <label for="tipo-patrocinio"><strong>Tipo de Patrocínio Desejado:</strong></label></div>
+                <div><input  type="checkbox" name="tipo-patrocinio" value="Apoio Financeiro">
+                    <label for="Apoio Financeiro"> <strong class="apoio">Apoio Financeiro</strong></label>  
+                </div>
+    
+                <div>
+                    <input type="checkbox" name="tipo-patrocinio" value="Produtos/Serviços">
+                    <label for="Produtos/Serviços"> <strong class="apoio">Produtos/Serviços</strong></label>  
+                </div>
+    
+                <div>
+                    <input type="checkbox"  name="tipo-patrocinio" value="Publicidade">
+                    <label for="Publicidade"><strong class="apoio">Publicidade</strong></label>  
+                </div>
+    
+                <div>
+                    <input type="checkbox" name="tipo-patrocinio" value="Eventos"  >
+                    <label for="Eventos"> <strong class="apoio">Eventos</strong></label>  
+                </div>
+    
+            </div>
+            
+                <div>
+                <legend class="comentarios"> <strong class="apoio">Comentários Adicionais:</strong></legend>
+                <div><textarea name="comentarios-adicionais"></textarea></div>
+            
+    
+                <input  class="botao" type="submit" value="ENVIAR">
+    
+            
+            </fieldset>
+            
+        </form>
+    
+        
         </section>
     </main>
 

@@ -194,7 +194,7 @@ table {
 th {
     color: white;
     border: 0.1rem solid white;
-    padding: 3%;
+    padding: 2%;
     font-size: 1.5rem;
 
 
@@ -231,8 +231,6 @@ td {
     padding: 0 2%;
 }
 
-
-
 h2 {
     color: white;
     margin-top: 5%;
@@ -255,6 +253,7 @@ h2 {
     text-align: center;
     margin: auto;
     padding: 3% 10%;
+    margin-bottom: 5%;
 }
 
 section {
@@ -275,14 +274,56 @@ input {
     margin-bottom: 2%;
 }
 
-fieldset {
+fieldset{
     align-items: center;
     width: 50%;
     color: black;
-    background-color: white;
-    padding: 1%;
-    border: white solid 1rem;
+    background-image: url(../img/beatriz-campea.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
 }
+
+.Detalhes, .tipo-patrocinio, .comentarios{
+    margin: 1% 0 2%;
+    color: aliceblue;
+    font-size: 1.1rem;
+
+}
+
+.formulario{
+    border-radius: 5%;
+    align-items: center;    
+}
+
+.titulo{
+    display: flex;
+    margin: 3% 17%;
+    padding-bottom: 1%;
+    color: aliceblue;
+    font-size: 1.6rem;
+}
+
+.nome-da-empresa, .nome-representante, .email, .telefone{
+    display: flex;
+    padding-bottom: 1%;
+    color: aliceblue;
+    font-size: 1.1rem;
+}
+
+.botao{
+    background-color: green;
+    color:yellow;
+}
+
+.geral{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+    background-color: b
+}
+.apoio{ color: aliceblue;}
+
 
 
 
