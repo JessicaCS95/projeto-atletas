@@ -92,7 +92,7 @@ figure {
 
 .banner:hover {
     content: url(../img/atletabs.jpg);
-    object-fit: scale-down;
+    object-fit: scale-down;/* define como o conteúdo de um contêiner substituível, como uma imagem, deve ser redimensionado para caber no contêiner. */
 
 }
 
@@ -120,24 +120,27 @@ article {
 
 .fotos {
     width: 100%;
+    height: 700px; 
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
-    height: 700px; /* Altura do container */
-    overflow: hidden;
+    overflow: hidden; /* define que qualquer conteúdo que ultrapasse os limites do container não será exibido. */
 }
 
 .fotoluta {
     position: absolute;
-    width: auto; /* Manter a proporção da imagem */
-    height: 80%; /* Reduzir a altura da imagem para 80% da altura do container */
-    object-fit: cover;
-    opacity: 0;
-    animation: slideShow 12s infinite;
+    width: auto; 
+    height: 80%; 
     margin: 1%;
+    object-fit: cover;/* define como o conteúdo de um contêiner substituível, como uma imagem, deve ser redimensionado para caber no contêiner. */
+    opacity: 0; /* define a opacidade inicial da imagem como 0, tornando-a invisível. */
+    animation: SequenciaLuta 12s infinite;
+    
+    
 }
 
+/* nth-child() pseudo-classe, é usado para selecionar um ou mais elementos baseados na sua posição dentro do pai (container). O número entre parênteses indica a ordem do elemento. */
 .fotoluta:nth-child(1) {
     animation-delay: 0s;
 }
@@ -150,7 +153,9 @@ article {
     animation-delay: 8s;
 }
 
-@keyframes slideShow {
+
+/* @keyframes é uma regra CSS usada para definir a sequência de etapas de uma animação. Ela permite criar animações que mudam gradualmente de um conjunto de estilos CSS para outro. */
+@keyframes SequenciaLuta {
     0% {
         opacity: 0;
     }
