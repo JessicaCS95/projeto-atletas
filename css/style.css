@@ -285,9 +285,10 @@ fieldset{
 }
 
 .Detalhes, .tipo-patrocinio, .comentarios{
-    margin: 1% 0 2%;
+    margin: 1% 0 2% 0;
     color: aliceblue;
     font-size: 1.1rem;
+    
 
 }
 
@@ -312,8 +313,10 @@ fieldset{
 }
 
 .botao{
+    display:flex;
     background-color: green;
     color:yellow;
+    margin: auto;
 }
 
 .geral{
@@ -323,6 +326,10 @@ fieldset{
     background-color: b
 }
 .apoio{ color: aliceblue;}
+
+textarea{
+    margin-bottom: 2%;
+}
 
 
 
