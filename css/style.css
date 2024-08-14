@@ -18,6 +18,7 @@ header {
     opacity: 1;
     text-align: center;
     padding: 0.4rem 0;
+    z-index: 10;
 }
 
 
@@ -117,22 +118,55 @@ article {
 
 }
 
-.imagens {
-    width: 100%;
-    display: flex;
-}
-
 .fotos {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    height: 700px; /* Altura do container */
+    overflow: hidden;
 }
 
 .fotoluta {
+    position: absolute;
+    width: auto; /* Manter a proporção da imagem */
+    height: 80%; /* Reduzir a altura da imagem para 80% da altura do container */
+    object-fit: cover;
+    opacity: 0;
+    animation: slideShow 12s infinite;
     margin: 1%;
 }
 
+.fotoluta:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.fotoluta:nth-child(2) {
+    animation-delay: 4s;
+}
+
+.fotoluta:nth-child(3) {
+    animation-delay: 8s;
+}
+
+@keyframes slideShow {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
 
 footer {
     background-color: black;
@@ -151,8 +185,6 @@ footer {
     flex-direction: row;
     width: 100%;
     color: white;
-    margin-top: 1%;
-    padding-top: 5%;
     font-size: 1.5rem;
     justify-content: center;
 
@@ -378,14 +410,14 @@ textarea{
         zoom: 125%;
     }
 
+    .fotos{
+        height: 400px;
+    }
+
     .redesocial {
-        display: flex;
-        flex-direction: row;
         width: 100%;
         color: white;
-        margin-top: 1%;
-        padding-top: 5%;
-        font-size: 1rem;
+        font-size: 1.2rem;
         justify-content: center;
 
     }
